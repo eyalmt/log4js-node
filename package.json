@@ -30,8 +30,8 @@
     "commitmsg": "validate-commit-msg",
     "posttest": "npm run clean",
     "pretest": "eslint lib/**/*",
-    "test": "tap 'test/tap/**/*.js'",
-    "coverage": "tap 'test/tap/**/*.js' --cov",
+    "test": "tap \"test/tap/**/*.js\"",
+    "coverage": "tap \"test/tap/**/*.js\" --cov",
     "codecov": "tap 'test/tap/**/*.js' --cov --coverage-report=lcov && codecov"
   },
   "directories": {
